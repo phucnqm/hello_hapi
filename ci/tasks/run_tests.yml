@@ -11,4 +11,7 @@ inputs:
   - name: dependency-cache
 
 run:
-  path: hello_hapi/ci/scripts/run_tests.sh
+  #path: hello_hapi/ci/scripts/run_tests.sh
+  path: echo
+  args: ["Hey! Listen!"]
+  
